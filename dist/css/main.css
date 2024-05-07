@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: purple;
+    background-image: url('../img/fish.jpeg');
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #fff;
+}
+body{
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+
